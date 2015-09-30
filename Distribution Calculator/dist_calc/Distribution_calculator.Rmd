@@ -1,0 +1,22 @@
+---
+title: "ADM2303 - Distribution calculator"
+runtime: shiny
+output: html_document
+author: Davood Astaraky
+---
+
+
+
+
+
+
+***Use application below and calculate probabilities of Normal and Binomial distributions.***
+
+
+```{r, echo=FALSE}
+shinyAppDir("/Users/davood/Desktop/Dropbox/teaching/1. Statistics Fall 2015/ADM2303/Distribution Calculator/dist_calc",
+            options=list(width="120%", height=1200)
+            )
+```
+
+
